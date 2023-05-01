@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Reshad Ummah
+title = Reshad Banaise
 
 # (str) Package name
-package.name = myapp
+package.name = ReshadApp
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.2.0dev0,pillow
+requirements = python3,kivy,sdl2_ttf,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
